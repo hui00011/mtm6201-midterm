@@ -208,6 +208,17 @@ h4 {
   width: 150px;
   margin-left: 2em;
 }
+/* Animation 01 */
+@keyframes move{
+  50% {
+    transform: translate(-100px,0)}
+ }
+ .logo:active {
+   animation-name:move;
+   animation-duration: 0.5s;
+   animation-iteration-count: infinite;
+ }
+ 
 .aptmt {
   border: none;
   font-size: 20px;
@@ -234,6 +245,24 @@ h4 {
   font-size: 20px;
   font-weight: bold;
 }
+/* Animation 02 */
+@keyframes phonecall {
+  0% {
+    filter: drop-shadow(0 0 1rem crimson);
+  }
+
+  100% {
+    filter: drop-shadow(0 0 .2rem crimson);
+  }
+}
+.telephone {
+  animation-name: phonecall;
+  animation-duration: 0.75s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+
 .main-nav {
   float: none;
   display: block;
