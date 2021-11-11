@@ -259,7 +259,7 @@ h4 {
   }
 }
 
-.telephone {
+.telephone01 {
   animation-name: phonecall;
   animation-duration: 0.75s;
   animation-iteration-count: infinite;
