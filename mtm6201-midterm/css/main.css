@@ -485,7 +485,7 @@ textarea {
   margin-right: 2em;
 }
 
-.telephone02 h3,
+.telephone-list h3,
 .hours h3 {
   margin-top: 2em;
   margin-bottom: 0.5em;
@@ -612,7 +612,7 @@ textarea {
     margin-right: 13%;
   }
 
-  .telephone02 h3 {
+  .telephone-list h3 {
     margin-top: 3em;
   }
   
