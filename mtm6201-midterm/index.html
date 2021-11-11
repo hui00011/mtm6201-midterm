@@ -32,7 +32,13 @@
         </ul>
       </nav>
       <div class="banner"> 
-        <img src="images/homepage-banner.png" alt="homepage-banner" class="homepage-banner">
+        <img class="banner-img"
+        srcset="images/homepage_banner_768_x_354.png 768w,
+                images/homepage_banner_1920.png 1920w,"
+        sizes="(max-width: 768px) 768px,
+              (max-width: 1920px) 1920px,"
+        src=“images/homepage_banner_1920”
+        alt="banner image">
       </div>  
     </header>
     <!-- closing Navigation and Banner section -->
