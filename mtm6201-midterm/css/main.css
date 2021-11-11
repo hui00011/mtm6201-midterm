@@ -293,13 +293,7 @@ h4 {
   background: #e8559f;
 }
 
-/*  Mobile App Section  */
-.banner {
-  background: url(../images/main-banner.png) no-repeat center center;
-  background-size: 100%;
-}
-
-.homepage-banner {
+.banner img{
   width: 100%;
 }
 
