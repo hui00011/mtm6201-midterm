@@ -259,7 +259,7 @@ h4 {
   }
 }
 
-.telephone01 {
+.telephone {
   animation-name: phonecall;
   animation-duration: 0.75s;
   animation-iteration-count: infinite;
@@ -491,7 +491,7 @@ textarea {
   margin-right: 2em;
 }
 
-.telephone h3,
+.telephone02 h3,
 .hours h3 {
   margin-top: 2em;
   margin-bottom: 0.5em;
@@ -618,7 +618,7 @@ textarea {
     margin-right: 13%;
   }
 
-  .telephone h3 {
+  .telephone02 h3 {
     margin-top: 3em;
   }
   
