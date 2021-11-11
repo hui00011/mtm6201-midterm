@@ -491,7 +491,7 @@ textarea {
   margin-right: 2em;
 }
 
-.telephone h3,
+.telephone-list h3,
 .hours h3 {
   margin-top: 2em;
   margin-bottom: 0.5em;
@@ -534,6 +534,10 @@ textarea {
   }
 
   /* homepage */
+  .banner-img {
+    width:100%;
+  }
+  
   .about-content {
     margin-left: 15%;
     margin-right: 15%;
@@ -618,7 +622,7 @@ textarea {
     margin-right: 13%;
   }
 
-  .telephone h3 {
+  .telephone-list h3 {
     margin-top: 3em;
   }
   
